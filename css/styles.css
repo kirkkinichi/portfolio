@@ -1,0 +1,257 @@
+/* Body */
+#body-id {
+    padding-top: 150px;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: white;
+    border-bottom: 1px solid gray;
+}
+
+/* Main Div */
+.main-div {
+    margin: auto;
+    max-width: 65rem;
+    padding: 10px;
+}
+
+.title-div{
+    padding-top: 85px
+}
+
+/* Skills */
+
+.skills-div .col-lg-2 img{
+    max-height: 125px;
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+
+
+/* Projects */
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #6b4d3c;
+    --bs-btn-border-color: #6b4d3c;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #573f31;
+    --bs-btn-hover-border-color: #573f31;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #573f31;
+    --bs-btn-active-border-color: #573f31;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #6b4d3c;
+    --bs-btn-disabled-border-color: #6b4d3c;
+}
+
+/* Text */
+.hr-separator {
+    color: brown;
+    height: 8px;
+    border-radius: 1rem;
+    border-width: 0 0 8px;
+    border-style: solid;
+    margin-bottom: 30px;
+    width: 5rem;
+}
+
+.p-paragraph {
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.img-profile {
+    max-width: 450px;
+    display: block;
+    margin-left: auto;
+}
+
+/* Resume */
+#resume {
+    padding-bottom: 40px;
+}
+
+.btn-download-resume{
+    color: black;
+    border-color: black;
+}
+
+.btn-download-resume:hover{
+    color: #1785e5 !important;
+    border-color: #1785e5;
+}
+
+/* Footer */
+.footer-c {
+    background-color: #6b4d3c;
+    padding-top: 15px;
+    color: white;
+}
+
+.footer-row {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    #body-id {
+        padding-top: 80px;
+    }
+
+    .img-profile {
+        max-width: 450px;
+    }
+
+    .row-profile {
+        width: 95%;
+    }
+
+    .hr-separator {        
+        margin-bottom: 18px;
+    }
+
+    .sub-title-profile {
+        margin-bottom: 50px;
+    }
+
+    .skills-div .col-lg-2 {
+        width: 16%;
+    }
+
+    .skills-div .col-lg-2 img {
+        max-height: 95px;
+    }
+
+    #projects .row .mb-3 .row .col-md-8 {
+        width: 64%;
+    }
+
+    .footer-row .col-lg-4 h4 {
+        padding-top: 50px;
+    }
+
+    p.lead.mb-0 {
+        font-size: 17px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    #body-id {
+        padding-top: 80px;
+    }
+
+    .img-profile {
+        max-width: 370px;
+    }
+
+    .row-profile {
+        width: 83%;
+    }
+
+    .hr-separator {        
+        margin-bottom: 18px;
+    }
+
+    .sub-title-profile {
+        margin-bottom: 50px;
+    }
+
+    
+
+    .skills-div .col-lg-2 {
+        width: 16%;
+    }
+
+    .skills-div .col-lg-2 img {
+        max-height: 95px;
+    }
+
+    .footer-row .col-lg-4 h4 {
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #navbar-id {
+        width: 97%;
+    }
+    
+    #body-id {
+        padding-top: 70px;
+    }
+
+    .main-div {        
+        padding-right: 0px;
+    }
+
+    .img-profile {
+        max-width: 345px;
+    }
+    
+    .row-profile {
+        width: 103%;
+    }
+
+    .hr-separator {        
+        margin-bottom: 18px;
+    }
+
+    .sub-title-profile {
+        margin-bottom: 50px;
+    }
+
+    
+
+    .p-paragraph {
+        font-size: 13px;
+    }
+
+    
+
+    #projects .row .mb-3 .row .col-md-4 {
+        padding-left: 0px;
+    }
+
+
+    #projects .row .mb-3 .row .col-md-4 img {
+        max-width: 230px;
+        margin: auto;
+        display: block;
+    }
+
+    .skills-div .col-lg-2 {
+        width: 33%;
+    }
+
+    .skills-div .col-lg-2 img {
+        max-height: 95px;
+    }
+
+    .footer-c {
+        width: 103%;
+    }
+
+    .footer-row .col-lg-4 h4 {
+        padding-top: 40px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .img-profile {
+        max-width: 280px;
+    }
+
+    .skills-div .col-lg-2 img {
+        max-height: 75px;
+    }
+}
+
+
